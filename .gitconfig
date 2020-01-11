@@ -1,0 +1,27 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+   name = dd.stamenov
+   email = dd.stamenov@gmail.com
+[core]
+  editor = vim
+[push]
+   default = simple
+[alias]
+   ci = commit
+   aci = commit --amend
+   st = status -uno
+   nst = status -uno
+   ust = status
+   co = checkout
+   df = diff
+   cdf = diff --cached
+   br = branch
+   #TODO
+   #lg
+   info = remote -v
+   who = shortlog -s --
+   changes = diff --name-status -r
+   pb = pull --rebase
+   smu = submodule update --inite --recursive
+   cf = clang-format
